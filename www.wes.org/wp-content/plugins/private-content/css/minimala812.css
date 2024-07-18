@@ -1,0 +1,181 @@
+/***********************************
+    GLOBAL ELEMENTS
+ ***********************************/
+ 
+/* containers style */
+.pc_registration_form,
+.pc_login_form,
+.pc_custom_form,
+.pc_error_mess,
+.pc_success_mess {
+	background-color: #fefefe;
+	color: #373737;
+}
+.pc_registration_form,
+.pc_login_form,
+.pc_custom_form {
+	border: 1px solid #ebebeb;	
+}
+.pc_error_mess,
+.pc_success_mess {
+	border-radius: 1px;	
+}
+
+
+/* fields style */
+.pc_rf_field input, .pc_rf_field select, .pc_rf_field textarea,
+.pc_rf_field .ms-choice, .pc_rf_field .ms-drop,
+.pc_login_row input, .pcma_psw_username,
+.pc_rf_recaptcha #recaptcha_response_field {
+	background: #fefefe;
+    border: 1px solid #cfcfcf;
+    box-shadow: none;
+    color: #808080;	
+	padding: 7px !important;
+	border-radius: 1px !important;
+}
+.pc_rf_field input:hover, .pc_rf_field textarea:hover,
+.pc_rf_field input:active, .pc_rf_field textarea:active,
+.pc_rf_field input:focus, .pc_rf_field textarea:focus,
+.pc_rf_field .ms-choice:hover, .pc_rf_field .ms-choice:active, .pc_rf_field .ms-choice:focus,
+.pc_login_row input:hover, .pcma_psw_username:hover,
+.pc_login_row input:active, .pcma_psw_username:active,
+.pc_login_row input:focus, .pcma_psw_username:focus,
+.pc_rf_recaptcha #recaptcha_response_field:focus {
+	background: #fff;
+    border: 1px solid #aaa;
+    color: #333;	
+	box-shadow: none;	
+}
+.pc_login_form label, .pc_form_flist, .pc_form_flist label {
+	color: #373737;
+}
+
+/* field icons */
+.pc_field_w_icon input,
+.pc_field_w_icon .ms-choice {
+	padding-left: 43px !important;	
+}
+.pc_field_icon {
+    padding-right: 6px;
+    left: 1px;
+	top: 1px;
+	bottom: 1px;
+    border-radius: 1px 0 0 1px;
+	background: #f6f6f6;
+	color: #808080;
+}
+.pc_field_container:hover .pc_field_icon,
+.pc_focused_field .pc_field_icon {
+	background: #f1f1f1;
+	color: #636363;
+}	
+
+
+/* multiselect fix */
+.pc_rf_field .ms-drop {
+	padding: 0 !important;	
+}
+.pc_rf_field .ms-drop li label {
+	background: #fefefe;
+    border-color: #ccc;
+    color: #808080;	
+}
+.pc_rf_field .ms-search:before,
+.pc_rf_field .ms-search:after,
+.pc_rf_field .ms-search {
+	border-color: #ccc;	
+}
+.pc_rf_field .ms-drop li:hover label {
+	background: #f9f9f9;
+    color: #333;	
+}
+.pc_rf_field .ms-search:hover:before,
+.pc_rf_field .ms-search:hover:after,
+.pc_rf_field .ms-search:hover {
+	border-color: #aaa;	
+}
+.pc_rf_field .ms-search input,
+.pc_rf_field .ms-search input:hover {
+	border: none !important;	
+}
+
+/* custom checkbox */
+.pc_checkbox {
+	background: #fefefe;
+    border-color: #ccc;
+}
+.pc_checkbox.pc_checked {
+	border-color: #aaa;	
+}
+.pc_checkbox:before {
+	background: #fff;
+}
+.pc_checkbox > span {
+	color: #333;
+}
+
+
+/* submit buttons */
+.pc_login_form input[type="button"], .pc_login_form button, .pc_login_form input[type="button"]:focus,
+.pc_registration_form input[type="button"], .pc_registration_form input[type="button"]:focus,
+.pc_registration_form button:not(.ms-choice), .pc_registration_form button:not(.ms-choice):focus, 
+.pc_custom_form input[type="button"], .pc_custom_form button:not(.ms-choice), .pc_custom_form input[type="button"]:focus, .pc_custom_form button:not(.ms-choice):focus,
+.pc_logout_btn, .pc_logout_btn:focus,
+.pc_warn_box_btn {
+	border: 1px solid #ddd !important;
+	background: none !important;
+	background-color: #f4f4f4 !important;
+	color: #444 !important;
+	padding: 7px 15px;
+}
+.pc_login_form input[type="button"]:hover, .pc_login_form input[type="button"]:active,  
+.pc_login_form button:hover, .pc_login_form button:active, .pc_login_form button:focus, 
+.pc_registration_form input[type="button"]:hover, .pc_registration_form input[type="button"]:active,
+.pc_registration_form button:not(.ms-choice):hover, .pc_registration_form button:not(.ms-choice):active,
+.pc_custom_form input[type="button"]:hover, .pc_custom_form input[type="button"]:active,
+.pc_custom_form button:not(.ms-choice):hover, .pc_custom_form button:not(.ms-choice):active, 
+.pc_logout_btn:hover, .pc_logout_btn:active,
+.pc_spinner_btn:hover, .pc_spinner_btn:active, .pc_spinner_btn:focus,
+.pc_warn_box_btn:hover {
+	border: 1px solid #cacaca !important;
+	background-color: #efefef !important;
+	color: #111 !important;
+	box-shadow: 0px 1px 0px #e4e4e4 inset;
+}
+.pc_inner_btn:after {
+	background: #aaa;	
+}
+
+/* disclaimer */
+.pc_rf_disclaimer_sep {
+	border-bottom: 1px solid #dfdfdf;	
+}
+ 
+/* recaptcha */
+.pc_rf_recaptcha #recaptcha_reload_btn {
+	background: url('../img/recaptcha_icons/refresh_l.html') no-repeat center center transparent !important;
+}
+.pc_rf_recaptcha #recaptcha_switch_audio_btn {
+	background: url('../img/recaptcha_icons/sound_l.html') no-repeat center center transparent !important;
+}
+.pc_rf_recaptcha #recaptcha_switch_img_btn {
+	background: url('../img/recaptcha_icons/text_l.html') no-repeat center center transparent !important;
+}
+.pc_rf_recaptcha #recaptcha_whatsthis_btn {
+	background: url('../img/recaptcha_icons/question_l.html') no-repeat center center transparent !important;
+}
+ 
+ 
+/* login form smalls */
+.pc_login_smalls {
+	margin-bottom: -7px; /* value equal to button's top padding */
+}
+.pc_login_smalls small {
+	color: #595959;	
+}
+
+/* show and hide recovery form trigger */
+.pc_rm_login .pcma_psw_recovery_trigger {
+	border-left-color: #c6c6c6;		
+}
