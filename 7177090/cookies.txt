@@ -1,6 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-applications.wes.org	TRUE	/	FALSE	1999999999	ASP.NET_SessionId	akz1ljdbyldhcdsqb4cyx0rv
-applications.wes.org	TRUE	/	FALSE	1999999999	SameSite	Lax
-applications.wes.org	TRUE	/	FALSE	1999999999	__RequestVerificationToken_L2NyZWF0ZUFjY291bnQ1	hWpejg8YQURzt2k3u5fy0SUDCKCo5X5mzrW5Lm3lW7pyhmD3M4BrJfybb4AQ8Y_eWtxsG3LbkbIfmhFt4B_7jrAeXs81
-
